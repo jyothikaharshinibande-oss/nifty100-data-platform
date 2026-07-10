@@ -1,5 +1,5 @@
 from .db_loader import main as load_database
-from .validator import validate
+from .validator import main as validate
 from .audit import audit
 
 

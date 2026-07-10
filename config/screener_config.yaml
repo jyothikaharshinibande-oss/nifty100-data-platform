@@ -1,0 +1,30 @@
+quality_compounder:
+  roe_min: 15
+  de_max: 1.0
+  fcf_positive: true
+  opm_min: 15
+
+value_pick:
+  pe_max: 20
+  pb_max: 3.0
+  de_max: 2.0
+
+growth_accelerator:
+  roe_min: 12
+  de_max: 2.0
+  opm_min: 18
+  fcf_positive: true
+
+dividend_champion:
+  fcf_positive: true
+  opm_min: 12
+
+debt_free_blue_chip:
+  de_max: 0
+  roe_min: 12
+  sales_min: 5000
+
+turnaround_watch:
+  fcf_positive: true
+  roe_min: 8
+  asset_turnover_min: 0.5

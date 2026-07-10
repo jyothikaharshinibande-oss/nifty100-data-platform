@@ -1,0 +1,4 @@
+{
+    "chat.byokUtilityModelDefault": "copilot",
+    "chat.utilitySmallModel": "gemini/models/gemini-3.5-flash"
+}

@@ -1,0 +1,28 @@
+Ratio Edge Case Log
+Category values: DATA_SOURCE_ISSUE, VERSION_DIFFERENCE, FORMULA_DISCREPANCY, DOCUMENTED_DECISION
+
+DOCUMENTED_DECISION: For analytics, computed financial_ratios.return_on_equity_pct is used. companies.roe_percentage is kept for display cross-check only.
+DOCUMENTED_DECISION: Financial-sector leverage warnings are suppressed because high balance-sheet leverage is structurally normal for banks/NBFCs/insurers.
+
+DATA_SOURCE_ISSUE | ADANIENT | Adani Enterprises Ltd | Mar 2024 | source_roe=13.64 | computed_roe=8.53 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | ADANIPOWER | Adani Power Ltd | Mar 2024 | source_roe=57.1 | computed_roe=48.28 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | BAJAJFINSV | Bajaj Finserv Ltd | Mar 2024 | source_roe=11.72 | computed_roe=25.85 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | BEL | Bharat Electronics Ltd | Mar 2024 | source_roe=26.3 | computed_roe=4744.05 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | BPCL | Bharat Petroleum Corporation Ltd | Mar 2024 | source_roe=41.9 | computed_roe=35.51000000000001 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | COALINDIA | Coal India Ltd | Mar 2024 | source_roe=52.0 | computed_roe=45.17 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | GODREJCP | Godrej Consumer Products Ltd | Mar 2024 | source_roe=6.77 | computed_roe=-4.45 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | HAL | Hindustan Aeronautics Ltd | Mar 2024 | source_roe=28.9 | computed_roe=3816.58 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | IRCTC | Indian Railway Catering & Tourism Corporation Ltd | Mar 2024 | source_roe=40.4 | computed_roe=34.4 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | LICI | Life Insurance Corporation of India | Mar 2024 | source_roe=63.61 | computed_roe=49.45 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | LT | Larsen & Toubro Ltd | Mar 2024 | source_roe=10.49 | computed_roe=77.66999999999999 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | NESTLEIND | Nestle India Ltd | Mar 2024 | source_roe=135.61 | computed_roe=117.75 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | PFC | Power Finance Corporation Ltd | Mar 2024 | source_roe=19.49 | computed_roe=26.16 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | PNB | Punjab National Bank | Mar 2024 | source_roe=8.7 | computed_roe=61.31999999999999 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | TATAMOTORS | Tata Motors Ltd | Mar 2024 | source_roe=49.4 | computed_roe=37.46 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | TATASTEEL | Tata Steel Ltd
+ | Mar 2024 | source_roe=6.55 | computed_roe=-5.33 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | TCS | Tata Consultancy Services Ltd | Mar 2024 | source_roe=0.52 | computed_roe=50.94 | difference exceeds 5 percentage points; computed value retained for analytics.
+DATA_SOURCE_ISSUE | TRENT | Trent Ltd | Mar 2024 | source_roe=27.2 | computed_roe=36.31 | difference exceeds 5 percentage points; computed value retained for analytics.
+
+FORMULA_DISCREPANCY | ATGL | Adani Total Gas Ltd | latest computed ROE missing in financial_ratios.
+FORMULA_DISCREPANCY | SBIN | State Bank of India | latest computed ROE missing in financial_ratios.
